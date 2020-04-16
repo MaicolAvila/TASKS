@@ -1,20 +1,26 @@
 [
     {
         "id": 0,
-        "title": "task one",
-        "description": "lorem ipsum",
+        "title": "Terminar GestAPP",
+        "description": "Debo añadir la API de google calendar y crear eventos",
         "done": false
     },
     {
         "id": 1,
-        "title": "task two",
-        "description": "lorem ipsum",
+        "title": "Subir lvl en COD",
+        "description": "Debo jugarme unas partidas en COD",
         "done": false
     },
     {
         "id": 2,
-        "title": "task three",
-        "description": "lorem ipsum",
+        "title": "Terminar GestAPP",
+        "description": "Debo añadir la API de google calendar y crear eventos",
+        "done": false
+    },
+    {
+        "id": 3,
+        "title": "Subir lvl en COD",
+        "description": "Debo jugarme unas partidas en COD",
         "done": false
     }
 ]

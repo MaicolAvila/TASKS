@@ -22,7 +22,7 @@
 }
 .description{
     border-radius: 8px;
-    margin-top: 15%;
+    margin-top: 8%;
     margin-left: 10px;
     position: absolute;
     height: 135px;
@@ -39,22 +39,28 @@
     background-color: #262a33;
     color: #d5ced9;
     border: 1px solid #1b1d23;
-    font-family: 'Roboto', sans-serif;
+    
     
     
 }
 
 h1{
     color: #1ecac6;
-    font-family: 'Roboto', sans-serif;
+    
 }
-p{
-    color: #96e072;
-    font-family: 'Roboto', sans-serif;
+.taskTitle{
+    color: #f10e80;
+    
+}
+.igual{
+    color: #ee5d43 !important;
+}
+.descriptionTask{
+    color: #ffe66d;
 }
 div{
     color: #ee5d43 !important;
-    font-family: 'Roboto', sans-serif;
+    
     
     
 }
@@ -62,10 +68,9 @@ div{
     border: 1px solid #1b1d23;
     border-radius: 10px;
     margin: 30px;
-    display: flex;
-    flex-wrap: wrap;
+    margin-top: 0;
     background-color: #262a33;
-    font-family: 'Roboto', sans-serif;
+    
     width: 230px;
     height: 250px;
     padding: 10px;
@@ -80,6 +85,86 @@ div{
     display: flex;
   flex-wrap: wrap;
 }
-     
+
+.Btns{
+    display: flex;
+    justify-content: flex-end;
+    margin-right: 8%;
+}
+@media only screen and (max-width: 800px) {
+    .description {
     
+        margin-top: 15%;
+  
+    }
+  }
+  @media only screen and (max-width: 1100px) {
+    .description {
+      
+        margin-top: 9%;
+   
+    }
+  }
+  @media only screen and (max-width: 1024px) {
+    .description {
+ 
+        margin-top: 10%;
+   
+    }
+  }
+  @media only screen and (max-width: 920px) {
+    .description {
+  
+        margin-top: 11.5%;
+     
+    }
+  }
+  @media only screen and (max-width: 810px) {
+    .description {
+        
+        margin-top: 13%;
+  
+    }
+  }
+  @media only screen and (max-width: 710px) {
+    .description {
+       
+        margin-top: 15%;
+       
+    }
+  }
+  @media only screen and (max-width: 616px) {
+    .description {
+        
+        margin-top: 17.5%;
+     
+    }
+  }
+  
+@media only screen and (max-width: 500px){
+    .description {
+        
+        border-radius: 8px;
+        margin-top: 35%;
+        margin-left: 10px;
+        margin-right: 0;
+        position: absolute;
+        height: 100px;
+        width: 234px;
+      
+      }
+  }
+  @media only screen and (max-width: 500px){
+    .tittle {
+        margin: 10px;
+        background-color: #262a33;
+        height: 30%;
+        width: 70%;
+        border-radius: 8px;
+    
+        border: 1px solid #1b1d23;
+        color: #f39c12;
+        font-family: 'Roboto', sans-serif;     
+    }
+  }
     

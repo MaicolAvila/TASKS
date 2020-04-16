@@ -20,15 +20,23 @@ class Task extends Component{
     render(){
     const {task} = this.props;
   
-        return <div style={this.styleCompleted()} className="content">
-            {task.title}- <br/>
-            {task.description}- <br/>
-            {task.done} <br/>
-            {task.id} <br/>
+        return <div >
+            <div className='Btns'>
             <input type="checkbox" onChange={this.props.checkDone.bind(this, task.id)} />
             <button className='delete' style={btnDelete} onClick={this.props.deleteTask.bind(this, task.id)}>
               <img src={delete_90964} width='25px' className='delete'/>
             </button>
+            </div>
+            
+            
+            <div style={this.styleCompleted()} className="content">
+            <p className='taskTitle'>{task.title}<span className='igual'>   = </span></p> 
+            <p className='descriptionTask'>{task.description}</p> 
+            <p>{task.done}</p> 
+            
+            
+            </div>
+            
         </div>
     }
 }
